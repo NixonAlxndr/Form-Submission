@@ -315,6 +315,10 @@ input[placeholder]{
     align-self: center;
   }
 
+  .left-container h1{
+    font-size: 2rem;
+  }
+
   .thanks-container{
     width: 100vw;
     height: 100vh;
