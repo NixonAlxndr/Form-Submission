@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Form Submission</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body class="roboto-regular">
+		<div class="primary-box rounded container flex">
+			<div class="left-container">
+				<div class="inner-left-container end">
+					<h1 class="roboto-bold">Stay updated!</h1>
+
+					<div class="primary-text">
+						<p>
+							Join 60,000+ product managers receiving monthly updates on:
+						</p>
+						<div class="list">
+							<ul>
+								<li>Product discovery and building what matters</li>
+								<li>Measuring to ensure upadates are a success</li>
+								<li>And much more!</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="email">
+						<div class="email-text">
+							<p class="enter sm-font roboto-bold">
+								Email address
+							</p>
+							<p class="wrong-email sm-font hidden roboto-bold">
+								Valid email required
+							</p>
+						</div>
+
+						<input class="full-width form rounded form-input" style="--round:8px; --grey:#b4b4b4;" type="text" placeholder="email@company.com">
+						<button class="full-width form rounded btn background" style="--round:8px;" class="subscribe">
+							<p>
+								Subscribe to monthly newsletter
+							</p>
+						</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="right-container">
+				<div class="image">
+					<img src="images/illustration-sign-up-desktop.svg" alt="" class="image1">
+					<img src="images/illustration-sign-up-mobile.svg" alt="" class="image2">
+				</div>
+			</div>
+		</div>
+
+		<div class="thanks-box thanks-container rounded hidden">
+			<div class="thanks-submission center">
+				<div class="logo">
+					<img src="images/icon-success.svg" alt="">
+				</div>
+				<div class="thanks-header">
+					<h1 class="roboto-bold b-med-font">Thanks for subscribing!</h1>
+				</div>
+				<div class="thanks-text">
+					<p>
+						A confirmation email has been sent to <span class="email-name"></span>. Please open it and click the button inside to confirm your subscription.
+					</p>
+				</div>
+				<div class="thanks-btn">
+					<button style="--round:8px;" class="roboto-bold full-width form rounded btn background">Dismiss message</button>
+				</div>
+			</div>
+		</div>
+
+		<script src="main.js"></script>	
+	</body>
+</html>
